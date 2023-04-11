@@ -7,10 +7,10 @@ export class Alumno {
     // public age: number,
     public aprove: boolean,
     public birthdate: Date,
-    public course: String
+    public course: string
   ) {}
 
-  get fullName(): String {
+  get fullName(): string {
     return this.firstName + ' ' + this.lastName;
   }
 }

@@ -16,7 +16,8 @@
         <td>{{alumno.id}}</td>
         <td>{{alumno.fullName}}</td>
         <td>{{alumno.email}}</td>
-        <td>{{alumno.course}}</td>
+        <td>{{alumno.course | uppercase }}</td>
+        <td>{{alumno.birthdate | date:'shortDate' }}</td>
       </tr>
     </tbody>
   </table>
